@@ -1,0 +1,74 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+body
+{
+  display: flex;
+  height: 85vh;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  width: 100%
+}
+.container-md-lg{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk1LAYNDc4jFu4_IlcyrinB4YX07ihA_0hwg&usqp=CAU") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid darkblue;
+  border-radius: 20px;
+  box-shadow: -1px 2px 0px 10px ;
+  color: snow;
+  width: 50%;
+}
+
+ .firstScore,.secondScore{
+  background-color: yellow;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: -1px 2px 0px 10px #40A2D8;
+  color: #000;
+  text-align: center;
+}
+.info-score{
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+span{
+  font-size: 100px;
+  font-weight: 800;
+  justify-content: space-between;
+}
+
+h1{
+  
+  animation: slide 3s linear infinite;
+  text-align: center;
+  position: relative;
+}
+.mb-5{
+  background-color: rgb(40, 95, 66);
+  border-radius: 5px;
+  border-radius: 15px;
+  box-shadow: -1px 2px 0px 10px hsl(60, 47%, 47%, 0);
+  opacity: .8;
+}
+.horizontal{
+  border: 2px solid salmon;
+  opacity: .9;
+}
+
+ @media screen and (max-width: 650px){
+  .container-md-lg{
+    width: 63%;
+  }
+  .mb-5{
+    min-height: 8vh;
+  
+  }
+  
+}
